@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./portfolio.css">
+    <link rel="icon" href="Aditya Lal.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo.png" class="Logo" >
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu"></i>
+            </nav>
+            <div class="header-text">
+               
+              <h1>Hi, I'm <span>Aditya</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="contain">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/qboutimg.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Aditya Lal: Engineering grad adept in C, CPP, Python, HTML, CSS, Git/GitHub. Excelled as Subject Matter Expert at Chegg India, optimizing projects. Led projects like Amazon clone website, Credit Card Fraud Detection ML model. Won competitions like Outbid in Phase Shift 2023. Ready for dynamic projects.</p>
+
+
+                    <div class="tab-titles">
+                       <p class="tab-links active-link" onclick="opentab('SKILLS')">SKILLS</p>
+                       <p class="tab-links" onclick="opentab('Education')">Education</p>
+                       <p class="tab-links" onclick="opentab('Achievment')">Achievment</p> 
+                    </div>
+                    <div class="tab-contents active-tab" id="SKILLS">
+                        <ul>
+                            <li>
+                                <span> Programming:</span><br>C/C++<br>MySQL<br>HTML5+CSS3
+                            </li>
+                            <li>
+                                <span>Technologies: </span><BR>Git/GitHub<br>Linux<br>MongoDB
+                            </li>
+                            <li>
+                                <span>Coursework:</span><br>Data Structures and Algorithms<br>OOPS<br>Computer Network<br>Operating System
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li>
+                                <pre><span>B.M.S COLLEGE OF ENGINEERING, Bangalore:</span>    2020-2024</pre><br>Bachelor of Engineering in Electronics and Instrumentations Engineering 
+                            </li>
+                            <li>
+                                <pre><span> St. Xavier’s High School, Nagpur:</span>  2019-2020</pre><br>Class XII
+                            </li>
+                            <li>
+                                <pre><span>K. V. VSN, Nagpur:</span>  2017-2018</pre><br>Class X
+                            </li>
+                           
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Achievment">
+                        <ul>
+                            <li>
+                                <span>Solved 200+ coding questions over coding platforms like LeetCode, GeekforGeeks, </span>
+                            </li>
+                            <li>
+                                <span>Coordinated Bug Buster event during Phase Shift 2022, increasing teamwork and satisfaction by 20%.</span>
+                            </li>
+                            <li>
+                                <span>Secured 1st place in Outbid a competitive event held during Phase Shift 2023 demonstrating strategic thinking and negotiation skills.</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Experience -->
+    <div id="Experience">
+        <div class="container">
+            <h1 class="sub-title">Experience</h1>
+            <div class="Experience-list">
+                <div>
+                    <h2>Chegg India: <span>Subject Matter Expert</span></h2>
+                    <br>
+                    <p>Guided students in Statistics and Probability, fostering success, backed by active freelance engagement until August 4, 2023.</p>
+                    <br>
+                    <p>Elevated test scores by 25% and attained a 95% pass rate through personalized learning and data-driven strategies. </p>
+                    <br>
+                    <p>Led initiative to optimize workflows, reducing turnaround time by 25% and boosting on-time project completion by 30%.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- projects -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="images/Credit card fra 79afad51-ac2d-42c4-8b42-508809c9380e.png">
+                <div class="layer">
+                    <h3>Credit Card Fraud Detection</h3>
+                    <p>Successfully deployed the model, reducing fraudulent incidents by 93.4%. </p>
+                    <a href="https://github.com/adi282003/credit-card-fraud-detection" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project"> <!-- Added missing opening div tag -->
+                <img src="images/building Amazon 18daabae-db96-474c-a7ad-33f686f788e6.png">
+                <div class="layer">
+                    <h3>Amazon Clone website  </h3>
+                    <p> Created an interactive user interface, potentially leading to an 83% improvement in page conversion rates. </p>
+                    <a href="https://github.com/adi282003/Amazon-clone-website" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> <!-- Added missing closing div tag -->
+            <div class="project"> <!-- Added missing opening div tag -->
+                <img src="images/Railway laborer fc28819a-9777-4ac1-97ff-64d3dea8150d.png">
+                <div class="layer">
+                    <h3>Railway Laborer Health and Status Monitoring System</h3>
+                    <p> Architected an ESP32-based system for real-time monitoring of railway laborer health and their status. </p>
+                    <a href="https://github.com/adi282003/Railway-Laboure-Health-and-Status-Monitoring-System"><i class="fa-solid fa-arrow-up-right-from-square" target="_blank"></i></a>
+                </div>
+            </div> <!-- Added missing closing div tag -->
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+     <!-- contact -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-magnifying-glass"></i>abcd@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/aditya-lal-444b57258/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/adi282003"><i class="fa-brands fa-square-github"></i></a>
+                        
+                    </div>
+                    <a href="images/ADITYA_PORTFOLIO_003_0666.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" >
+                       <input type="text" name="Name" placeholder="Your Name" required>
+                       <input type="email" name="email" placeholder="Your Email" required>
+                       <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                       <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Aditya. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+     </div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("side-menu");
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/a/macros/bmsce.ac.in/s/AKfycbx03MCiLMzLlLxERba32J7koFxn229XKdV7Nf46Jk6P-QIJLQDX6EUs6QbijtwYilyFNQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML ="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
